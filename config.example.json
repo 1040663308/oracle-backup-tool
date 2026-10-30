@@ -1,0 +1,70 @@
+{
+  "school_name": "XX学校",
+  "server": {
+    "host": "192.168.1.10",
+    "port": 22,
+    "ssh_user": "root",
+    "auth_type": "password",
+    "password": "",
+    "key_file": "",
+    "key_passphrase": "",
+    "oracle_user": "oracle",
+    "switch_method": "auto",
+    "sudo_password": "",
+    "oracle_home": "/u01/app/oracle/product/19.0.0/dbhome_1",
+    "oracle_sid": "ORCL",
+    "db_connect": "ORCL",
+    "db_user": "system",
+    "db_password": "",
+    "nls_lang": "AMERICAN_AMERICA.AL32UTF8",
+    "directory_name": "DATA_PUMP_DIR",
+    "dump_dir": "/opt/oracle/backup"
+  },
+  "backup": {
+    "schemas": [],
+    "remote_keep_days": 3,
+    "local_path": "D:\\OracleBackup",
+    "local_keep_days": 30,
+    "schedule_enabled": true,
+    "schedule_time": "02:00",
+    "schedule_days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "parallel": 1,
+    "compress": true
+  },
+  "notify": {
+    "pushplus": {
+      "enabled": false,
+      "token": "",
+      "topic": ""
+    },
+    "email": {
+      "enabled": false,
+      "smtp": "smtp.qq.com",
+      "port": 465,
+      "ssl": true,
+      "user": "",
+      "password": "",
+      "from_addr": "",
+      "to_addr": ""
+    },
+    "dingtalk": {
+      "enabled": false,
+      "webhook": "",
+      "secret": ""
+    }
+  },
+  "system": {
+    "autostart": false,
+    "start_minimized": false,
+    "notify_on_success": true,
+    "notify_on_failure": true
+  }
+}

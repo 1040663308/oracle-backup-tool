@@ -1,0 +1,4 @@
+# Oracle 数据库备份工具 - 运行依赖
+# 打包与运行均基于 Python 3.10+（含 tkinter 的完整版 Python）
+paramiko>=3.4
+pyinstaller>=6.0

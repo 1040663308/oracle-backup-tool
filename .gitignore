@@ -1,0 +1,32 @@
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 打包产物（二进制不入库，发布件走 GitHub Releases）=====
+build/
+dist/
+dist_old_*/
+dist_installer/
+dist_installer_old_*/
+
+# ===== 运行数据与配置（config 含密码，严禁入库）=====
+logs/
+config.json
+state.json
+*.local.json
+
+# ===== 项目内部工作记录 =====
+.workbuddy/
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# ===== 杂项 =====
+*.log
+C:Users*

@@ -4,8 +4,8 @@
 
 ## 📦 项目地址与下载
 
-- **项目地址**：https://github.com/USERNAME/oracle-backup-tool
-- **下载地址**（安装包）：https://github.com/USERNAME/oracle-backup-tool/releases
+- **项目地址**：https://github.com/1040663308/oracle-backup-tool
+- **下载地址**（安装包）：https://github.com/1040663308/oracle-backup-tool/releases
   - 下载 `OracleBackup_安装包_vX.Y.Z.zip`，解压后双击 `OracleBackup_Setup_vX.Y.Z.exe` 安装
   - ZIP 内附 `校验说明.txt`（含 SHA256），下载后建议核对校验值防损坏
 
@@ -57,7 +57,7 @@
 
 ### 方式一：直接使用安装包（推荐）
 
-从 [Releases](https://github.com/USERNAME/oracle-backup-tool/releases) 下载 `OracleBackup_安装包_vX.Y.Z.zip`（约 12MB），核对 ZIP 内 `校验说明.txt` 中的 SHA256 后解压安装：
+从 [Releases](https://github.com/1040663308/oracle-backup-tool/releases) 下载 `OracleBackup_安装包_vX.Y.Z.zip`（约 12MB），核对 ZIP 内 `校验说明.txt` 中的 SHA256 后解压安装：
 
 - 双击 `OracleBackup_Setup_vX.Y.Z.exe`，默认安装到 `C:\Program Files\OracleBackup\`（可自定义目录）
 - 自动创建开始菜单快捷方式和卸载项，安装界面为简体中文
